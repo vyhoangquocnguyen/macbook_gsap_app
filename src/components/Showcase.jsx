@@ -33,9 +33,9 @@ const Showcase = () => {
   return (
     <section id="showcase">
       <div className="media">
-        <video src="\videos\game.mp4" loop muted autoPlay playsInline />
+        <video src="/videos/game.mp4" loop muted autoPlay playsInline />{" "}
         <div className="mask">
-          <img src="\mask-logo.svg" alt="mask logo" />
+          <img src="/mask-logo.svg" alt="mask logo" />{" "}
         </div>
       </div>
       <div className="content">
@@ -45,9 +45,9 @@ const Showcase = () => {
             <div className="space-y-5 mt-7 pe-10">
               <p>Introduction </p>
               <span className="text-white">
-                M4, the next gneration of Apple silicon
+                M4, the next generation of Apple silicon
               </span>
-              . M4 powers
+              . M4 powers{" "}
               <p>
                 It drives Apple Intelligence on iPad Pro, so you can write,
                 create, and accomplish more with ease. All in a design that’s
