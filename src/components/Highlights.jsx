@@ -7,7 +7,7 @@ const Highlights = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
 
   useGSAP(() => {
-    gsap.to([".left-column ", ".right-column "], {
+    gsap.to([".left-column", ".right-column"], {
       scrollTrigger: {
         trigger: "#highlights",
         start: isMobile ? "bottom bottom" : "top top",
@@ -34,7 +34,7 @@ const Highlights = () => {
           <div>
             <img src="/sun.png" alt="Sun" />
             <p>
-              A Stunniing
+              A Stunning
               <br />
               Liquid Retina XDR <br />
               display
@@ -54,9 +54,9 @@ const Highlights = () => {
             <img src="/battery.png" alt="Battery" />
             <p>
               Up to
-              <span className="green-gradient"> 14 more hours</span>" of battery
+              <span className="green-gradient"> 14 more hours</span> of battery
               life.{" "}
-              <span className="text-dark-100"> (Up to 14 hours total.)</span>
+              <span className="text-dark-100"> (Up to 14 hours total.)</span>{" "}
             </p>
           </div>
         </div>
