@@ -4,6 +4,9 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  build: {
+    outDir: "public",
+    assetsDir: "",
+  },
   plugins: [react(), tailwindcss()],
-  base: "/macbook_gsap_app",
 });
